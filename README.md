@@ -46,7 +46,7 @@ classDiagram
     class AparelhoTelefonico {
         <<interface>>
         +ligar(String numero)
-        +atender()
+        +atender() boolean
         +iniciarCorreioVoz()
     }
 
